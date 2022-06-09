@@ -15,6 +15,7 @@
         <div class="container1"> 
             <div id="header">
                 <h3>Caesar-cipher (aka shift cipher)</h3>
+                <br>
             </div> 
 
             <div class="container-fluid">
@@ -28,9 +29,12 @@
                     <div class="col-sm-9 col-md-6 col-lg-8">
                     
                         <textarea id = "textArea" placeholder="Insert your message here" cols="40" oninput="enDeCode()"></textarea>
+                        <br> <br> 
 
                         <label for="shift"> Choose Shift pattern</label>
                         <input type="number" value="3" id="shift" onchange="enDeCode()">
+                        
+                         <br> <br>
                         <p>
                            <label for="encode"> Encode</label> 
                            <input  type ="radio" id ="encode" name="cipher" checked onchange="enDeCode()">
@@ -40,6 +44,8 @@
                         </p>
                         <label for="output"> </label>
                         <textarea name="" id="output" cols="40"  placeholder="Your encrypted message will be shown here"></textarea>
+                        
+                         <br> <br> <br> <br>
                         
                     </div>
                 </div>
